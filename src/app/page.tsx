@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { Shield, Linkedin, Send, Star, Twitter, Users, Youtube, Zap } from "lucide-react";
 import ContactSplit from "@/components/sections/contact/ContactSplit";
@@ -28,7 +28,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
           logoSrc="https://pixabay.com/get/g4e5956123a8aeac6c980f40948cfae9a4a58fb7eeb778519e5ab54aee5a5d76df488d8d1d6a8b8d3e208b893eb802126be0ab4f46c218bc155b918157aa9ce03_1280.jpg"
-          logoAlt="AeroTech Solutions Logo"
           brandName="AeroTech Solutions"
           button={{
             text: "Get Quote",
@@ -75,28 +74,28 @@ export default function Home() {
           animationType="blur-reveal"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "Aerial Mapping & Surveying",
               description: "High-precision mapping solutions for construction, mining, and land development projects using advanced GPS and photogrammetry technology.",
               imageSrc: "https://pixabay.com/get/g1f94c4e3591eeb796814a35a0deddbabac7f6d6c5568ee3ebca076a2a3f79c5abcf49d3a4146d70508b35039ace79abee7520403d3b95c2d63364a630cc4c6af_1280.jpg",
               imageAlt: "Aerial mapping drone survey"
             },
             {
-              id: "2",
+              id: 2,
               title: "Infrastructure Inspection",
               description: "Safe and efficient inspection of power lines, bridges, towers, and industrial facilities with detailed reporting and thermal imaging capabilities.",
               imageSrc: "https://pixabay.com/get/g749e8ec906f15982f58148da57e0bebf8f1a588c4de6568b67b986e9b3a115076930f6b53fce4b5e15227046eba7c49b2476d614309116211fde139da3f2a187_1280.jpg",
               imageAlt: "Industrial drone inspection"
             },
             {
-              id: "3",
+              id: 3,
               title: "Aerial Photography & Video",
               description: "Professional cinematography and photography services for real estate, marketing, events, and construction progress documentation.",
               imageSrc: "https://pixabay.com/get/g939a62d97afe856453d208d1e1e89a60ca1db93932954c323adf084eb3d832138260d06c79f31161321027ea7029e9a84c886c612436aead52e0513babec5a6a_1280.jpg",
               imageAlt: "Aerial photography service"
             },
             {
-              id: "4",
+              id: 4,
               title: "Security & Surveillance",
               description: "Advanced surveillance solutions for perimeter monitoring, crowd management, and security assessment with real-time streaming capabilities.",
               imageSrc: "https://pixabay.com/get/g7f8713368ac59eff373683c2862dbc2e28161edc5554d183437b13f02486838ff79ded1669896cd3d2c8a1b7b6d4f784ddef1cda3d638fbad8d2615bc488b44a_1280.jpg",
